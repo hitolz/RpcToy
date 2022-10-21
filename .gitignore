@@ -24,7 +24,7 @@
 hs_err_pid*
 
 ### Maven template
-target/
+**/target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -38,5 +38,15 @@ buildNumber.properties
 
 *.mvn
 
+*/mvn*
+**/mvn*
+
+*/HELP.md
+*/*.iml
 
 .idea
+
+*.iml
+
+
+**/.DS_Store
